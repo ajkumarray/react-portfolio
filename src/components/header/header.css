@@ -46,10 +46,10 @@ header {
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 4rem;
+  margin-top: 4.4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 2.3rem 1.3rem 1.5rem 2rem;
 }
 
 /* ==== Scroll Down ==== */
@@ -68,6 +68,10 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
+  }
+
+  .header__socials .scroll__down {
+    display: none;
   }
 }
 

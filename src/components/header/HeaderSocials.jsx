@@ -1,6 +1,5 @@
 import React from "react";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { SiLeetcode } from "react-icons/si";
+import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
@@ -15,12 +14,8 @@ const HeaderSocials = () => {
       <a href="https://github.com/ajkumarray" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
-      <a
-        href="https://leetcode.com/ajkumarray/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <SiLeetcode />
+      <a href="https://twitter.com/ajkumarray" target="_blank" rel="noreferrer">
+        <BsTwitter />
       </a>
     </div>
   );
