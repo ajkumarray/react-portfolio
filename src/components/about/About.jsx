@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpg";
-import { TbAward, TbUsers, TbFolder } from "react-icons/tb";
+import { TbAward } from "react-icons/tb";
+import { MdComputer } from "react-icons/md";
 
 const About = () => {
   return (
@@ -19,25 +20,19 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <TbAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years working</small>
+              <h5>Student</h5>
+              <small>at BIT Mesra</small>
             </article>
             <article className="about__card">
-              <TbUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>300+ worldwide</small>
-            </article>
-            <article className="about__card">
-              <TbFolder className="about__icon" />
-              <h5>Projects</h5>
-              <small>30+ completed</small>
+              <MdComputer className="about__icon" />
+              <h5>Frontend Developer</h5>
+              <small>in making</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
-            temporibus iusto molestias expedita sed ipsam nemo voluptatem minima
-            doloribus ea pariatur itaque facere libero et natus id animi, non
-            corrupti?
+            I am a final year student at Birla Institute of Technology, Mesra,
+            pursuing my B.Tech in Information Technology . I have a passion for
+            coding, Web development and Machine Learning.
           </p>
           <a href="#contact" className="btn btn-primary">
             Get In Touch

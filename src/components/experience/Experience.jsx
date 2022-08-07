@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h5>The Skills I Have</h5>
-      <h2>My Experiece</h2>
+      <h2>My Skills</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -16,7 +16,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -43,7 +43,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
-                <h4>React</h4>
+                <h4>ReactJs</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -59,20 +59,13 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
                 <h4>NodeJs</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Begineer</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
                 <h4>ExpressJs</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icons" />
-              <div>
-                <h4>MongoDB</h4>
                 <small className="text-light">Begineer</small>
               </div>
             </article>

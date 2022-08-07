@@ -17,9 +17,7 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
       <Portfolio />
-      <Testimonials />
       <Contact />
       <Footer />
     </div>
@@ -27,3 +25,10 @@ function App() {
 }
 
 export default App;
+
+/*
+
+<Services />
+<Testimonials />
+
+ */
