@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./nav.css";
 import { TbSmartHome, TbUser, TbMessage } from "react-icons/tb";
 import { MdWork } from "react-icons/md";
-import { useState } from "react";
+import { VscTools } from "react-icons/vsc";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("#");
@@ -26,6 +26,13 @@ function Nav() {
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
+      >
+        <VscTools />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
         <MdWork />
       </a>
