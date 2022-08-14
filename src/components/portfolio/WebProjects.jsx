@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import "./webProjects.css";
 import IMG1 from "../../assets/portfolioWeb1.png";
 import IMG2 from "../../assets/portfolioWeb2.png";
 import IMG3 from "../../assets/portfolioWeb3.png";
@@ -44,9 +45,9 @@ const data = [
   },
 ];
 
-function WebProject() {
+function WebProjects() {
   return (
-    <div className="container portfolio__container">
+    <div className="container portfolio__container-Web">
       {data.map(({ id, image, title, github, demo }) => {
         return (
           <article key={id} className="portfolio__item">
@@ -74,4 +75,4 @@ function WebProject() {
   );
 }
 
-export default WebProject;
+export default WebProjects;

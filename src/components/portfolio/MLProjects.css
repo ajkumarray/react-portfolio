@@ -1,0 +1,15 @@
+.portfolio__container-ML {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  margin-left: 15rem;
+}
+
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}

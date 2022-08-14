@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import "./MLProjects.css";
 import IMG1 from "../../assets/portfolioML1.png";
 import IMG2 from "../../assets/portfolioML2.png";
 
@@ -24,7 +25,7 @@ const data = [
 
 function MLProjects() {
   return (
-    <div className="container portfolio__container">
+    <div className="container portfolio__container-ML">
       {data.map(({ id, image, title, github, demo }) => {
         return (
           <article key={id} className="portfolio__item">
