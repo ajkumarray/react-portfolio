@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./contact.css";
 import emailjs from "emailjs-com";
 import { MdEmail } from "react-icons/md";
-import { BsTelegram } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
@@ -57,7 +57,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <BsTelegram className="contact__icon" />
+            <FaTelegramPlane className="contact__icon" />
             <h4>Telegram</h4>
             <h5>ajkumarray</h5>
             <a href="https://t.me/ajkumarray" target="_blank" rel="noreferrer">
